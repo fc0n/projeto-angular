@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculadora';
 import { JogoDaVelhaModule } from './jogo-da-velha';
+import { TarefasModule } from './tarefas';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { JogoDaVelhaModule } from './jogo-da-velha';
     DashboardModule,
     CalculadoraModule,
     JogoDaVelhaModule,
+    TarefasModule,
     AppRoutingModule
   ],
   providers: [],
